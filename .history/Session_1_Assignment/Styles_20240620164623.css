@@ -155,7 +155,6 @@ header{
   
   .middle {
     opacity: 0;
-    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -166,6 +165,7 @@ header{
     color: #4CAF50;
     font-size: 16px;
     padding: 16px 32px;
+    font-weight: bold;
   }
   .container:hover .image {
     opacity: 0.3;
@@ -273,7 +273,7 @@ header{
 }
   
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 600px) {
 
     .slideshow-container {
         flex-direction: column;
@@ -281,14 +281,10 @@ header{
     }
 
     .slideshow {
-        margin:auto;
+        width: 100%;
     }
 
     .nav-link {
-        display: none;
-    }
-
-    .middle {
         display: none;
     }
 

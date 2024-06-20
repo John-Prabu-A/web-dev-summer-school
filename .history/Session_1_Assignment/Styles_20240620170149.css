@@ -273,7 +273,7 @@ header{
 }
   
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 600px) {
 
     .slideshow-container {
         flex-direction: column;

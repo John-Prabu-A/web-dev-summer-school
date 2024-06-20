@@ -64,7 +64,6 @@ button {
 button:hover {
     background-color: #fff;
     color: #007506;
-    font-weight: bold;
     border: 2px solid #007506;
     transform: scale(1.02);
     transition: 0.2s;
