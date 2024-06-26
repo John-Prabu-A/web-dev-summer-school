@@ -1,0 +1,198 @@
+[{
+  "_id": {
+    "$oid": "667be545f6d4d40e92947136"
+  },
+  "name": "LG Dishwasher",
+  "description": "This is latest LG dishwahser",
+  "productPrice": 15000,
+  "sellingPrice": 10000,
+  "image": "img/product-img-5.jpeg",
+  "category": "electronics",
+  "seller": "John Doe",
+  "location": "New York, NY",
+  "contactNo": "123-456-7890",
+  "createdAt": {
+    "$date": "2024-06-26T09:54:13.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be586f6d4d40e92947138"
+  },
+  "name": "Refrigerator",
+  "description": "This is an amazing refrigirator from LG",
+  "productPrice": 20000,
+  "sellingPrice": 18000,
+  "image": "img/product-img-10.jpeg",
+  "category": "furniture",
+  "seller": "Jane Smith",
+  "location": "San Francisco, CA",
+  "contactNo": "987-654-3210",
+  "createdAt": {
+    "$date": "2024-06-26T09:55:18.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be5dff6d4d40e9294713a"
+  },
+  "name": "Iphone 13 pro",
+  "description": "Latest 12mb ultra powerful Pic-specialist",
+  "productPrice": 70000,
+  "sellingPrice": 65000,
+  "image": "img/product-img-1.jpeg",
+  "category": "vehicles",
+  "seller": "Michael Johnson",
+  "location": "Los Angeles, CA",
+  "contactNo": "555-123-4567",
+  "createdAt": {
+    "$date": "2024-06-26T09:56:47.249Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be5f4f6d4d40e9294713c"
+  },
+  "name": "Amazing Cycle",
+  "description": "Latest Heruko hero cycle",
+  "productPrice": 6000,
+  "sellingPrice": 5000,
+  "image": "img/product-img-2.jpeg",
+  "category": "clothing",
+  "seller": "Emily Brown",
+  "location": "Chicago, IL",
+  "contactNo": "444-555-6666",
+  "createdAt": {
+    "$date": "2024-06-26T09:57:08.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be689f6d4d40e92947140"
+  },
+  "name": "Pulzer 150",
+  "description": "Latest pulzer Hero travel with 150cc",
+  "productPrice": 100000,
+  "sellingPrice": 90000,
+  "image": "img/product-img-3.jpeg",
+  "category": "electronics",
+  "seller": "John Doe",
+  "location": "New York, NY",
+  "contactNo": "123-456-7890",
+  "createdAt": {
+    "$date": "2024-06-26T09:59:37.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be693f6d4d40e92947142"
+  },
+  "name": "Innova Car",
+  "description": "latest innova car",
+  "productPrice": 300000,
+  "sellingPrice": 250000,
+  "image": "img/product-img-4.jpeg",
+  "category": "furniture",
+  "seller": "Jane Smith",
+  "location": "San Francisco, CA",
+  "contactNo": "987-654-3210",
+  "createdAt": {
+    "$date": "2024-06-26T09:59:47.090Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be69bf6d4d40e92947144"
+  },
+  "name": "Compact AC",
+  "description": "Latest Air Cooler from whirlpool",
+  "productPrice": 15000,
+  "sellingPrice": 14000,
+  "image": "img/product-img-6.jpeg",
+  "category": "vehicles",
+  "seller": "Michael Johnson",
+  "location": "Los Angeles, CA",
+  "contactNo": "555-123-4567",
+  "createdAt": {
+    "$date": "2024-06-26T09:59:55.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be6a5f6d4d40e92947146"
+  },
+  "name": "Auto Clean",
+  "description": "Latest design floor cleaner ",
+  "productPrice": 5000,
+  "sellingPrice": 4500,
+  "image": "img/product-img-7.jpeg",
+  "category": "clothing",
+  "seller": "Emily Brown",
+  "location": "Chicago, IL",
+  "contactNo": "444-555-6666",
+  "createdAt": {
+    "$date": "2024-06-26T10:00:05.226Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be6aff6d4d40e92947148"
+  },
+  "name": "Wilson 750",
+  "description": "Latest wilson product definetly awesome",
+  "productPrice": 1000,
+  "sellingPrice": 900,
+  "image": "img/product-img-8.jpeg",
+  "category": "books",
+  "seller": "Chris Evans",
+  "location": "Boston, MA",
+  "contactNo": "333-222-1111",
+  "createdAt": {
+    "$date": "2024-06-26T10:00:15.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667be6bef6d4d40e9294714a"
+  },
+  "name": "Dhoni T-shirt",
+  "description": "CSK dhoni t-shirt latest design",
+  "productPrice": 800,
+  "sellingPrice": 600,
+  "image": "img/product-img-9.jpeg",
+  "category": "clothing",
+  "seller": "Sarah Connor",
+  "location": "Austin, TX",
+  "contactNo": "321-654-0987",
+  "createdAt": {
+    "$date": "2024-06-26T10:00:30.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "667c5a327eab8b69d350fad4"
+  },
+  "name": "Study Buddy",
+  "description": "This is our study buddy app",
+  "productPrice": 150,
+  "sellingPrice": 120,
+  "image": "img\\image-1719425586907.png",
+  "category": "electronics",
+  "seller": "John Prabu A",
+  "location": "Sankarankovil",
+  "contactNo": "9876543210",
+  "createdAt": {
+    "$date": "2024-06-26T18:13:06.915Z"
+  },
+  "__v": 0
+}]

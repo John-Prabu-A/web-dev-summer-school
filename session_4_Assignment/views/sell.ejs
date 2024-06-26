@@ -1,0 +1,43 @@
+<%- include('partials/header') %>
+
+<img src="./img/sell-page-bg.png" alt="sell-page-image">
+<form action="/product" class="container" method="post" id="add-product" enctype="multipart/form-data">
+    <label for="product-title"><b>Product Title</b></label>
+    <input type="text" placeholder="Enter Product Title" name="product-title" required>
+
+    <label for="product-description"><b>Product Description</b></label>
+    <textarea name="product-description" id="product-description" cols="30" rows="10" placeholder="Enter Product Description" required></textarea>
+
+    <label for="product-price"><b>Product Price</b></label>
+    <input type="text" placeholder="Enter Product Price" name="product-price" required>
+
+    <label for="selling-price"><b>Selling Price</b></label>
+    <input type="text" placeholder="Enter Selling Price" name="selling-price" required>
+
+    <label for="product-image"><b>Upload Product Images</b></label>
+    <input type="file" name="image" id="product-image" required>
+
+    <label for="product-category"><b>Product Category</b></label>
+    <select name="product-category" id="product-category" required>
+        <option value="electronics">Electronics</option>
+        <option value="furniture">Furniture</option>
+        <option value="vehicles">Vehicles</option>
+        <option value="clothing">Clothing</option>
+        <option value="books">Books</option>
+        <option value="miscellaneous">Miscellaneous</option>
+        <option value="other">Other</option>
+    </select>
+
+    <label for="seller"><b>Your Name</b></label>
+    <input type="text" placeholder="Enter Your Name" name="seller" required>
+
+    <label for="product-location"><b>Product Location</b></label>
+    <input type="text" placeholder="Enter Product Location" name="product-location" required>
+
+    <label for="product-contact"><b>Contact Number</b></label>
+    <input type="text" placeholder="Enter Contact Number" name="product-contact" required>
+
+    <button type="submit">Post</button>
+</form>
+
+<%- include('partials/footer') %>
