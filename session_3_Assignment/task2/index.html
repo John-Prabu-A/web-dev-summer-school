@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="index.js"></script>
+    <script>
+        window.onload = function() {
+            resetGame();
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number Game</h1>
+        <form id="guessForm">
+            <label for="guess">Enter Your Guess : </label>
+            <input type="number" id="guess" name="guess" required>
+            <button type="button" onclick="verifyGuess()">Submit</button>
+        </form>
+        <div id="result" style="display: none; color: #fff; padding: 10px; text-align: center;"></div>
+        <div style="justify-content: center; display: flex;">
+            <button type="button" style="padding: 5px; background-color:aqua; color: black; font-weight: bold; margin-top: 10px;" onclick="resetGame()">Reset Game</button>
+        </div>
+    </div>
+</body>
+</html>
