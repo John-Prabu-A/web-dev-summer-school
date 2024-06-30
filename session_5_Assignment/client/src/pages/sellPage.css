@@ -1,0 +1,113 @@
+.sell-img {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 15%;
+    padding: 16px;
+    width: 60%;
+    height: auto;
+    z-index: -1;
+    box-sizing: border-box;
+    opacity: 0.5;
+    transition: opacity 0.2s ease-out;
+}
+
+.sell-container {
+    display: block;
+    position: relative;
+    top: 100px;
+    padding: 16px;
+    margin: 0 20px 150px 50px;
+    background-color: #4CAF50;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sell-container input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
+.sell-button {
+    background-color: #007506;
+    color: white;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border: 2px solid #007506;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sell-button:hover {
+    background-color: #fff;
+    color: #007506;
+    font-weight: bold;
+    border: 2px solid #007506;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.sell-container label {
+    font-weight: bold;
+}
+
+.sell-container select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
+.sell-container textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
+.sell-container input[type=file] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
+@media (max-width: 768px) {
+    .sell-img {
+        width: 100%;
+        margin: 0 auto;
+        top: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .sell-container {
+        width: 80vw;
+        margin-top: 0px;
+        top: 0;
+    }
+}
